@@ -23,3 +23,7 @@ Android Interface Definition Language (AIDL) 是一种IDL (Interface Definition 
 
 5.Messenger:
 Messenger是一种轻量级的进程间通信机制，基于AIDL，Handler和Message。通过Messenger，可以在不同进程之间发送消息，实现简单的进程间通信,底层实现是binder。
+
+6.Intent
+可以通过Intent传递数据和消息，但是只能传递一些简单的数据类型，比如字符串、整数等。
+从一个应用程序启动其它进程(应用)应用程序的界面(Activity)并携带数据数据,从一个服务启动其它进程(应用)的服务(Service),并携带数据数据,底层实现是binder。
